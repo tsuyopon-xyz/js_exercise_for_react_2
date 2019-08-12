@@ -1,13 +1,11 @@
 # レポジトリ内容
 
-このレポジトリのmasterブランチの内容は `npx create-react-app js_exercise_for_react_2` を実行して、 `README.md` の修正と、完成形の画像を追加しただけです。
-
-この課題は、Web白熱教室のReact課題その1「[【エクササイズ】CSSを反映させたReactコンポーネントを作る](https://tsuyopon.xyz/learning-contents/web-dev/javascript/react/js-exercise-for-react-1/)」の課題レポジトリになります。
+この課題は、Web白熱教室のReact課題その2「[【エクササイズ】Reactの2種類のコンポーネントとpropsを使う](https://tsuyopon.xyz/learning-contents/web-dev/javascript/react/js-exercise-for-react-2/)」の課題レポジトリになります。
 
 ## 課題
 
-- 「課題をクリアするためのステップ」の内容を全て対応する
-- 以下の完成形の画像と同じ見た目になるように `App.js` と `App.css` を実装する
+- 以下の完成形の画像と同じ見た目になるように実装する
+- 具体的な実装の流れは、以下の「課題をクリアするためのステップ」の内容を参考にすること
 
 ## 完成形
 
@@ -15,15 +13,13 @@
 
 ### 課題をクリアするためのステップ
 
-- [ ] srcディレクトリの中を `App.js` と `index.js` だけにする
-- [ ] `App.js` と `index.js` が動くように修正する(不要なコードを削除する)
 - [ ] srcディレクトリの中に `components` ディレクトリを作成する
 - [ ] `components` ディレクトリの中に `Button` ディレクトリを作成する
-- [ ] `Button`ディレクトリの中に `Button.jsx` と `Button.css` を作成して、上の完成形の画像のようなボタン1個のコンポーネントを実装する
-- [ ] `App`コンポーネントと `関数コンポーネント` で作成する
-- [ ] `Button`コンポーネントは `クラスコンポーネント` で実装する
+- [ ] `Button`ディレクトリの中に `Button.jsx` と `Button.css` を作成して、上の完成形の画像のようなボタン1個を表すコンポーネントを実装する
+- [ ] `App` コンポーネントは `関数コンポーネント` で実装する
+- [ ] `Button` コンポーネントは `クラスコンポーネント` で実装する
 - [ ] `Button` コンポーネントに表示する文字列は `props.children` で受け取れるようにする
-    - 【注意】`Button` コンポーネントは `クラスコンポーネント` であるため、 `this` を使って、props値を扱う
+    - 【注意】`Button` コンポーネントは `クラスコンポーネント` であるため、 `this` 経由でpropsを扱う
 - [ ] `npm start` を実行して、上に貼った「完成形」と同じ見ための表示がされれば完了
 
 
